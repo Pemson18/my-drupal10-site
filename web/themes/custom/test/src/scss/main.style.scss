@@ -1,0 +1,43 @@
+// Bootstrap
+// -----------------------------------------------------------------------------
+@import 'bootstrap';
+
+// Parent Drupal related components
+// -----------------------------------------------------------------------------
+@import '../../contrib/radix/src/components/navbar/navbar';
+@import '../../contrib/radix/src/components/forum/forum';
+@import '../../contrib/radix/src/components/offcanvas/offcanvas';
+
+// Include any custom stylesheets here
+// -----------------------------------------------------------------------------
+.page__footer {
+
+  background-color: #F2F2F2;
+
+  h2,
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .more-link {
+    align-self: flex-end;
+  }
+
+  ul {
+    li {
+      list-style: none;
+    }
+
+    li::marker {
+
+      content: "\00BB";
+    }
+  }
+
+
+  .more-link {
+    display: flex;
+    justify-content: end;
+  }
+}
