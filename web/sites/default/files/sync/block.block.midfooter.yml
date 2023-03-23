@@ -1,0 +1,25 @@
+uuid: 71db994e-9d7f-4b54-aa2b-e305d9a23d60
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a8c6fea0-a7a9-41f1-9871-d323bf70cafc'
+  module:
+    - block_content
+  theme:
+    - test
+id: midfooter
+theme: test
+region: footer2
+weight: 0
+provider: null
+plugin: 'block_content:a8c6fea0-a7a9-41f1-9871-d323bf70cafc'
+settings:
+  id: 'block_content:a8c6fea0-a7a9-41f1-9871-d323bf70cafc'
+  label: 'Mid Footer'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

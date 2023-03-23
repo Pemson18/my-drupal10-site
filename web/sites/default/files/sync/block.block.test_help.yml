@@ -1,0 +1,22 @@
+uuid: c089ccc1-24ab-40fe-8f4e-2e04961743c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - test
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: test_help
+theme: test
+region: navbar_branding
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

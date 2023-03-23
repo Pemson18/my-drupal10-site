@@ -1,0 +1,22 @@
+uuid: cf1cb0dc-6cbf-4e2d-963a-d4b7f3b3ae31
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - test
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: test_powered
+theme: test
+region: navbar_branding
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

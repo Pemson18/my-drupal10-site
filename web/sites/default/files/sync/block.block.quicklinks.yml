@@ -1,0 +1,25 @@
+uuid: 24cfc334-e4f0-4718-b7a9-f87e316d7a32
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5d3e4226-eb79-4c5e-8909-d14e62d4dce0'
+  module:
+    - block_content
+  theme:
+    - test
+id: quicklinks
+theme: test
+region: footer3
+weight: 0
+provider: null
+plugin: 'block_content:5d3e4226-eb79-4c5e-8909-d14e62d4dce0'
+settings:
+  id: 'block_content:5d3e4226-eb79-4c5e-8909-d14e62d4dce0'
+  label: 'Quick Links'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
